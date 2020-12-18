@@ -1,5 +1,5 @@
 # multi-source-translate
-Research the api for translating.
+research the api for translating.
 ## baidu
 [baidu.py](baidu.py)
 ```python
