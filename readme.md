@@ -9,11 +9,11 @@ def baidu_trans(query):
     url = 'https://fanyi.baidu.com/sug'
     data = {'kw': query}
     res = requests.post(url, data=data).json()
-    print(res['data'][0]['v'])
+    return res['data'][0]['v']
 
 
 if __name__ == "__main__":
-    baidu_trans('hello')
+    print(baidu_trans('hello'))
 ```
 ## youdao
 ```python
@@ -35,11 +35,11 @@ def youdao_trans(query):
         "action": "FY_BY_CLICKBUTTION"
     }
     res = requests.post(url, data=data).json()
-    print(res['translateResult'][0][0]['tgt'])
+    return res['translateResult'][0][0]['tgt']
 
 
 if __name__ == "__main__":
-    youdao_trans('hello')
+    print(youdao_trans('hello'))
 ```
 ## todo
 - [x] baidu

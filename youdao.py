@@ -16,8 +16,8 @@ def youdao_trans(query):
         "action": "FY_BY_CLICKBUTTION"
     }
     res = requests.post(url, data=data).json()
-    print(res['translateResult'][0][0]['tgt'])
+    return res['translateResult'][0][0]['tgt']
 
 
 if __name__ == "__main__":
-    youdao_trans('hello')
+    print(youdao_trans('hello'))
