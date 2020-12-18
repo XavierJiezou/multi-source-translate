@@ -12,7 +12,8 @@ def baidu_trans(query):
     print(res['data'][0]['v'])
 
 
-baidu_trans('hello')
+if __name__ == "__main__":
+    baidu_trans('hello')
 ```
 ## youdao
 ```python
@@ -37,8 +38,8 @@ def youdao_trans(query):
     print(res['translateResult'][0][0]['tgt'])
 
 
-youdao_trans('hello')
-
+if __name__ == "__main__":
+    youdao_trans('hello')
 ```
 ## todo
 - [x] baidu

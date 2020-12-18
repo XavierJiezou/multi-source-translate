@@ -8,4 +8,5 @@ def baidu_trans(query):
     print(res['data'][0]['v'])
 
 
-baidu_trans('hello')
+if __name__ == "__main__":
+    baidu_trans('hello')

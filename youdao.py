@@ -19,4 +19,5 @@ def youdao_trans(query):
     print(res['translateResult'][0][0]['tgt'])
 
 
-youdao_trans('hello')
+if __name__ == "__main__":
+    youdao_trans('hello')
