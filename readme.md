@@ -17,7 +17,7 @@ if __name__ == "__main__":
     print(baidu_trans('hello'))
 ```
 ## youdao
-[youdoa.py][youdao.py]
+[youdoa.py](youdao.py)
 ```python
 import requests
 
