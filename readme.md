@@ -1,6 +1,7 @@
 # multi-source-translate
 Research the api for translating.
 ## baidu
+[baidu.py](baidu.py)
 ```python
 import requests
 
@@ -16,6 +17,7 @@ if __name__ == "__main__":
     print(baidu_trans('hello'))
 ```
 ## youdao
+[youdoa.py][youdao.py]
 ```python
 import requests
 
